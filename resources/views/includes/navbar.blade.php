@@ -34,7 +34,7 @@
               <a class="nav-link" href="{{ route('request') }}">Booking</a>
             </li>
             <li class="nav-item {{ (request()->is('/request*')) ? 'active' : '' }}">
-              <a class="nav-link" href="{{ route('request') }}">Panduan</a>
+              <a class="nav-link" href={{ asset('panduan/Panduan.pdf') }}>Panduan</a>
             </li>
             {{-- <li class="nav-item {{ (request()->is('/troubleshoot*')) ? 'active' : '' }}">
               <a class="nav-link" href="">About Us</a>
